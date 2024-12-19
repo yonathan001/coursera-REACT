@@ -4,7 +4,7 @@ function Nav(){
         <nav className="main-nav">
             <ul>
                 <li>Home</li>
-                <li>Article</li>
+                <li>News</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>

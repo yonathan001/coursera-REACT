@@ -5,7 +5,7 @@ return(
      <div>
         <h1>Don't miss out </h1>
      </div>
-        <h2>subscribe to my newsletter </h2>
+        <h2>subscribe !! </h2>
     </div>
 );
     
