@@ -1,18 +1,21 @@
-import avator from './avator.png';
-
-function logo(props){
-  const userPic = <img src={avator} />;
- return userPic;   
-}
-
 function Nav(){
-    return(
 
-        <div>
-            <h1>this is avator</h1>
-            <logo />
-        </div>
+    return (
+        <nav className="main-nav">
+            <ul>
+                <li>Home</li>
+                <li>News</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Maps</li>
+                <li>signup</li>
+                <li>login</li>
+                
+            </ul>
+        </nav>
     );
-}
+};
 
 export default Nav;
+
+
