@@ -1,18 +1,19 @@
-import './App.css';
+import avator from './avator.png';
 
-function Header(){
-  
-return <h1>hello selam </h1>
-  
+function Logo(props){
+  const userPic = <img src={avator} alt='img1' />;
+ return userPic;   
 }
-function App() {
-  return ( 
-    <div className="App"> 
-      This is the starting code for "Your first component" ungraded lab 
-      <Header /> 
-    </div> 
-  );
- 
+
+function App(){
+    return(
+
+        <div>
+            <h1>this is avator</h1>
+            <Logo />
+        </div>
+    );
 }
 
 export default App;
+
